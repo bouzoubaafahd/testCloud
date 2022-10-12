@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/polyticket-22-23-h/block-and-book-service/block-and-book-service.iml" filepath="$PROJECT_DIR$/polyticket-22-23-h/block-and-book-service/block-and-book-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/testCloud.iml" filepath="$PROJECT_DIR$/.idea/testCloud.iml" />
+    </modules>
+  </component>
+</project>
