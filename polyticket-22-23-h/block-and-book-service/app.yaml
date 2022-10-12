@@ -1,0 +1,2 @@
+runtime: java11
+service: block-and-book-service

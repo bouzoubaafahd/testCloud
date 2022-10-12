@@ -1,0 +1,99 @@
+# openapi2-appengine.yaml
+swagger: "2.0"
+info:
+  title: polyticketapi optional-string
+  description: Sample API on API Gateway with an App Engine backend
+  version: 1.0.0
+schemes:
+  - https
+produces:
+  - application/json
+paths:
+  /vod/status:
+    get:
+      summary: Access VOD Service status
+      operationId: vod service status
+      x-google-backend:
+        address: https://vod-service-dot-stately-command-311914.oa.r.appspot.com/status
+      responses:
+        "200":
+          description: A successful response
+          schema:
+            type: string
+  /vod/doc:
+    get:
+      summary: Access VOD Service doc
+      operationId: vod service doc
+      x-google-backend:
+        address: https://vod-service-dot-stately-command-311914.oa.r.appspot.com/doc
+      responses:
+        "200":
+          description: A successful response
+          schema:
+            type: string
+  /payment/status:
+    get:
+      summary: Access Payment Service status
+      operationId: payment service status
+      x-google-backend:
+        address: https://payment-service-dot-stately-command-311914.oa.r.appspot.com/status
+      responses:
+        "200":
+          description: A successful response
+          schema:
+            type: string
+  /payment/doc:
+    get:
+      summary: Access Payment Service doc
+      operationId: payment service doc
+      x-google-backend:
+        address: https://payment-service-dot-stately-command-311914.oa.r.appspot.com/doc
+      responses:
+        "200":
+          description: A successful response
+          schema:
+            type: string
+  /block-and-book/status:
+    get:
+      summary: Access BlockAndBook Service status
+      operationId: blockAndBook service status
+      x-google-backend:
+        address: https://block-and-book-service-dot-stately-command-311914.oa.r.appspot.com/status
+      responses:
+        "200":
+          description: A successful response
+          schema:
+            type: string
+  /block-and-book/doc:
+    get:
+      summary: Access BlockAndBook Service doc
+      operationId: blockAndBook service doc
+      x-google-backend:
+        address: https://block-and-book-service-dot-stately-command-311914.oa.r.appspot.com/doc
+      responses:
+        "200":
+          description: A successful response
+          schema:
+            type: string
+  /event/status:
+    get:
+      summary: Access Event Service status
+      operationId: event service status
+      x-google-backend:
+        address: https://event-service-dot-stately-command-311914.oa.r.appspot.com/status
+      responses:
+        "200":
+          description: A successful response
+          schema:
+            type: string
+  /event/doc:
+    get:
+      summary: Access Event Service doc
+      operationId: event service doc
+      x-google-backend:
+        address: https://event-service-dot-stately-command-311914.oa.r.appspot.com/doc
+      responses:
+        "200":
+          description: A successful response
+          schema:
+            type: string
